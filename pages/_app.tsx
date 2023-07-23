@@ -8,7 +8,7 @@ import {
 } from "connectkit";
 import {useEffect, useState} from "react";
 
-const config = createConfig(
+const config = createConfig (
     /**
      * The default config method, create account on alchemy and WalletConnect and get the API keys,
      * add the value to the configuration

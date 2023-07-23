@@ -21,7 +21,7 @@ interface Token {
 export const ETHEREUM_TOKENS: Token[] = [
     {
         chainId: 1,
-        address: "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+        address: "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
         name: "Polygon",
         symbol: "MATIC",
         decimals: 18,
@@ -29,7 +29,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        address: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
         name: "WETH",
         symbol: "WETH",
         decimals: 18,
@@ -41,11 +41,11 @@ export const ETHEREUM_TOKENS: Token[] = [
         name: "USD Coin",
         symbol: "USDC",
         decimals: 6,
-        logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/logo.png",
+        logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
     },
     {
         chainId: 1,
-        address: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        address: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
         name: "Wrapped Bitcoin",
         symbol: "WBTC",
         decimals: 8,
@@ -57,11 +57,11 @@ export const ETHEREUM_TOKENS: Token[] = [
         name: "Dai",
         symbol: "DAI",
         decimals: 18,
-        logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x6b175474e89094c44da98b954eedeac495271d0f/logo.png",
+        logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
     },
     {
         chainId: 1,
-        address: "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+        address: "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
         name: "SHIBA INU",
         symbol: "SHIB",
         decimals: 18,
@@ -69,7 +69,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+        address: "0x4fabb145d64652a948d72533023f6e7a623c7c53",
         name: "Binance USD",
         symbol: "BUSD",
         decimals: 18,
@@ -77,7 +77,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        address: "0x514910771af9ca656af840dff83e8264ecf986ca",
         name: "Chainlink",
         symbol: "LINK",
         decimals: 18,
@@ -85,7 +85,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        address: "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
         name: "Uniswap",
         symbol: "UNI",
         decimals: 18,
@@ -93,7 +93,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x0000000000085d4780B73119b644AE5ecd22b376",
+        address: "0x0000000000085d4780b73119b644ae5ecd22b376",
         name: "TrueUSD",
         symbol: "TUSD",
         decimals: 18,
@@ -101,7 +101,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x4a220E6096B25EADb88358cb44068A3248254675",
+        address: "0x4a220e6096b25eadb88358cb44068a3248254675",
         name: "Quant",
         symbol: "QNT",
         decimals: 18,
@@ -109,7 +109,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        address:"0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
         name: "Aave",
         symbol: "AAVE",
         decimals: 18,
@@ -117,7 +117,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+        address: "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
         name: "The Graph",
         symbol: "GRT",
         decimals: 18,
@@ -125,7 +125,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+        address: "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
         name: "Maker",
         symbol: "MKR",
         decimals: 18,
@@ -133,7 +133,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
+        address:"0x3845badade8e6dff049820680d1f14bd3903a5d0",
         name: "The Sandbox",
         symbol: "SAND",
         decimals: 18,
@@ -141,7 +141,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
+        address: "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
         name: "Decentraland",
         symbol: "MANA",
         decimals: 18,
@@ -149,7 +149,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+        address: "0x4d224452801aced8b2f0aebe155379bb5d594381",
         name: "ApeCoin (APE)",
         symbol: "APE",
         decimals: 18,
@@ -157,7 +157,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0xD533a949740bb3306d119CC777fa900bA034cd52",
+        address:"0xd533a949740bb3306d119cc777fa900ba034cd52",
         name: "Curve DAO Token",
         symbol: "CRV",
         decimals: 18,
@@ -165,7 +165,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0xd1d2Eb1B1e90B638588728b4130137D262C87cae",
+        address: "0xd1d2eb1b1e90b638588728b4130137d262c87cae",
         name: "Gala",
         symbol: "GALA",
         decimals: 8,
@@ -173,7 +173,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+        address: "0x45804880de22913dafe09f4980848ece6ecbaf78",
         name: "PAX Gold",
         symbol: "PAXG",
         decimals: 18,
@@ -181,7 +181,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+        address: "0xc00e94cb662c3520282e6f5717214004a7f26888",
         name: "Compound",
         symbol: "COMP",
         decimals: 18,
@@ -189,7 +189,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
+        address:  "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
         name: "Nexo",
         symbol: "NEXO",
         decimals: 18,
@@ -197,7 +197,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x111111111117dC0aa78b770fA6A738034120C302",
+        address: "0x111111111117dc0aa78b770fa6a738034120c302",
         name: "1INCH Token",
         symbol: "1INCH",
         decimals: 18,
@@ -205,7 +205,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+        address: "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
         name: "Loopring",
         symbol: "LRC",
         decimals: 18,
@@ -213,7 +213,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
+        address: "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
         name: "Enjin Coin",
         symbol: "ENJ",
         decimals: 18,
@@ -222,7 +222,7 @@ export const ETHEREUM_TOKENS: Token[] = [
 
     {
         chainId: 1,
-        address: "0x6810e776880C02933D47DB1b9fc05908e5386b96",
+        address: "0x6810e776880c02933d47db1b9fc05908e5386b96",
         name: "Gnosis",
         symbol: "GNO",
         decimals: 18,
@@ -230,7 +230,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+        address: "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
         name: "Basic Attention Token",
         symbol: "BAT",
         decimals: 18,
@@ -238,7 +238,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+        address: "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
         name: "Synthetix",
         symbol: "SNX",
         decimals: 18,
@@ -246,7 +246,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0xba100000625a3754423978a60c9317c58a424e3D",
+        address: "0xba100000625a3754423978a60c9317c58a424e3d",
         name: "Balancer",
         symbol: "BAL",
         decimals: 18,
@@ -254,7 +254,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+        address:  "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
         name: "yearn.finance",
         symbol: "YFI",
         decimals: 18,
@@ -263,7 +263,7 @@ export const ETHEREUM_TOKENS: Token[] = [
 
     {
         chainId: 1,
-        address: "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+        address: "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
         name: "sUSD",
         symbol: "sUSD",
         decimals: 18,
@@ -271,7 +271,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
+        address:  "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
         name: "Ocean Protocol",
         symbol: "OCEAN",
         decimals: 18,
@@ -279,7 +279,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
+        address: "0x6c6ee5e31d828de241282b9606c8e98ea48526e2",
         name: "Holo",
         symbol: "HOT",
         decimals: 18,
@@ -287,7 +287,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9",
+        address: "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
         name: "Swipe",
         symbol: "SXP",
         decimals: 18,
@@ -296,7 +296,7 @@ export const ETHEREUM_TOKENS: Token[] = [
 
     {
         chainId: 1,
-        address: "0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998",
+        address: "0x18aaa7115705e8be94bffebde57af9bfc265b998",
         name: "Audius",
         symbol: "AUDIO",
         decimals: 18,
@@ -305,7 +305,7 @@ export const ETHEREUM_TOKENS: Token[] = [
 
     {
         chainId: 1,
-        address: "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+        address: "0xe41d2489571d322189246dafa5ebde1f4699f498",
         name: "0x",
         symbol: "ZRX",
         decimals: 18,
@@ -313,7 +313,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0xa117000000f279D81A1D3cc75430fAA017FA5A2e",
+        address: "0xa117000000f279d81a1d3cc75430faa017fa5a2e",
         name: "Aragon",
         symbol: "ANT",
         decimals: 18,
@@ -322,7 +322,7 @@ export const ETHEREUM_TOKENS: Token[] = [
 
     {
         chainId: 1,
-        address: "0xA8b919680258d369114910511cc87595aec0be6D",
+        address: "0xa8b919680258d369114910511cc87595aec0be6d",
         name: "LUKSO",
         symbol: "LYXe",
         decimals: 18,
@@ -330,7 +330,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
+        address: "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
         name: "Band Protocol",
         symbol: "BAND",
         decimals: 18,
@@ -338,7 +338,7 @@ export const ETHEREUM_TOKENS: Token[] = [
     },
     {
         chainId: 1,
-        address: "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+        address: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
         name: "SushiSwap",
         symbol: "SUSHI",
         decimals: 18,
@@ -349,7 +349,7 @@ export const ETHEREUM_TOKENS: Token[] = [
 export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     matic: {
         chainId: 1,
-        address: "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+        address: "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
         name: "Polygon",
         symbol: "MATIC",
         decimals: 18,
@@ -357,7 +357,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     weth: {
         chainId: 1,
-        address: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        address: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
         name: "WETH",
         symbol: "WETH",
         decimals: 18,
@@ -369,11 +369,11 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
         name: "USD Coin",
         symbol: "USDC",
         decimals: 6,
-        logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/logo.png",
+        logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
     },
     wbtc: {
         chainId: 1,
-        address: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        address: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
         name: "Wrapped Bitcoin",
         symbol: "WBTC",
         decimals: 8,
@@ -385,11 +385,11 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
         name: "Dai",
         symbol: "DAI",
         decimals: 18,
-        logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x6b175474e89094c44da98b954eedeac495271d0f/logo.png",
+        logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
     },
     shib: {
         chainId: 1,
-        address: "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+        address: "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
         name: "SHIBA INU",
         symbol: "SHIB",
         decimals: 18,
@@ -397,7 +397,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     busd: {
         chainId: 1,
-        address: "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+        address: "0x4fabb145d64652a948d72533023f6e7a623c7c53",
         name: "Binance USD",
         symbol: "BUSD",
         decimals: 18,
@@ -405,7 +405,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     link: {
         chainId: 1,
-        address: "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        address: "0x514910771af9ca656af840dff83e8264ecf986ca",
         name: "Chainlink",
         symbol: "LINK",
         decimals: 18,
@@ -413,7 +413,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     uni: {
         chainId: 1,
-        address: "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        address: "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
         name: "Uniswap",
         symbol: "UNI",
         decimals: 18,
@@ -421,7 +421,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     tusd: {
         chainId: 1,
-        address: "0x0000000000085d4780B73119b644AE5ecd22b376",
+        address: "0x0000000000085d4780b73119b644ae5ecd22b376",
         name: "TrueUSD",
         symbol: "TUSD",
         decimals: 18,
@@ -429,7 +429,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     qnt: {
         chainId: 1,
-        address: "0x4a220E6096B25EADb88358cb44068A3248254675",
+        address: "0x4a220e6096b25eadb88358cb44068a3248254675",
         name: "Quant",
         symbol: "QNT",
         decimals: 18,
@@ -437,7 +437,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     aave: {
         chainId: 1,
-        address: "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        address: "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
         name: "Aave",
         symbol: "AAVE",
         decimals: 18,
@@ -446,7 +446,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
 
     grt: {
         chainId: 1,
-        address: "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+        address: "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
         name: "The Graph",
         symbol: "GRT",
         decimals: 18,
@@ -454,7 +454,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     mkr: {
         chainId: 1,
-        address: "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+        address:"0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
         name: "Maker",
         symbol: "MKR",
         decimals: 18,
@@ -462,7 +462,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     sand: {
         chainId: 1,
-        address: "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
+        address: "0x3845badade8e6dff049820680d1f14bd3903a5d0",
         name: "The Sandbox",
         symbol: "SAND",
         decimals: 18,
@@ -470,7 +470,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     mana: {
         chainId: 1,
-        address: "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
+        address: "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
         name: "Decentraland",
         symbol: "MANA",
         decimals: 18,
@@ -478,7 +478,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     ape: {
         chainId: 1,
-        address: "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+        address: "0x4d224452801aced8b2f0aebe155379bb5d594381",
         name: "ApeCoin (APE)",
         symbol: "APE",
         decimals: 18,
@@ -486,7 +486,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     crv: {
         chainId: 1,
-        address: "0xD533a949740bb3306d119CC777fa900bA034cd52",
+        address: "0xd533a949740bb3306d119cc777fa900ba034cd52",
         name: "Curve DAO Token",
         symbol: "CRV",
         decimals: 18,
@@ -494,7 +494,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     gala: {
         chainId: 1,
-        address: "0xd1d2Eb1B1e90B638588728b4130137D262C87cae",
+        address: "0xd1d2eb1b1e90b638588728b4130137d262c87cae",
         name: "Gala",
         symbol: "GALA",
         decimals: 8,
@@ -502,7 +502,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     paxg: {
         chainId: 1,
-        address: "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+        address: "0x45804880de22913dafe09f4980848ece6ecbaf78",
         name: "PAX Gold",
         symbol: "PAXG",
         decimals: 18,
@@ -510,7 +510,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     comp: {
         chainId: 1,
-        address: "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+        address: "0xc00e94cb662c3520282e6f5717214004a7f26888",
         name: "Compound",
         symbol: "COMP",
         decimals: 18,
@@ -518,7 +518,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     nexo: {
         chainId: 1,
-        address: "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
+        address:  "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
         name: "Nexo",
         symbol: "NEXO",
         decimals: 18,
@@ -526,7 +526,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     "1inch": {
         chainId: 1,
-        address: "0x111111111117dC0aa78b770fA6A738034120C302",
+        address: "0x111111111117dc0aa78b770fa6a738034120c302",
         name: "1INCH Token",
         symbol: "1INCH",
         decimals: 18,
@@ -534,7 +534,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     lrc: {
         chainId: 1,
-        address: "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+        address: "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
         name: "Loopring",
         symbol: "LRC",
         decimals: 18,
@@ -542,7 +542,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     enj: {
         chainId: 1,
-        address: "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
+        address: "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
         name: "Enjin Coin",
         symbol: "ENJ",
         decimals: 18,
@@ -550,7 +550,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     gno: {
         chainId: 1,
-        address: "0x6810e776880C02933D47DB1b9fc05908e5386b96",
+        address: "0x6810e776880c02933d47db1b9fc05908e5386b96",
         name: "Gnosis",
         symbol: "GNO",
         decimals: 18,
@@ -558,7 +558,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     bat: {
         chainId: 1,
-        address: "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+        address: "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
         name: "Basic Attention Token",
         symbol: "BAT",
         decimals: 18,
@@ -566,7 +566,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     snx: {
         chainId: 1,
-        address: "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+        address: "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
         name: "Synthetix",
         symbol: "SNX",
         decimals: 18,
@@ -574,7 +574,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     bal: {
         chainId: 1,
-        address: "0xba100000625a3754423978a60c9317c58a424e3D",
+        address: "0xba100000625a3754423978a60c9317c58a424e3d",
         name: "Balancer",
         symbol: "BAL",
         decimals: 18,
@@ -582,7 +582,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     yfi: {
         chainId: 1,
-        address: "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+        address:  "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
         name: "yearn.finance",
         symbol: "YFI",
         decimals: 18,
@@ -590,7 +590,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     susd: {
         chainId: 1,
-        address: "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+        address: "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
         name: "sUSD",
         symbol: "sUSD",
         decimals: 18,
@@ -598,7 +598,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     ocean: {
         chainId: 1,
-        address: "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
+        address:  "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
         name: "Ocean Protocol",
         symbol: "OCEAN",
         decimals: 18,
@@ -606,7 +606,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     hot: {
         chainId: 1,
-        address: "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
+        address: "0x6c6ee5e31d828de241282b9606c8e98ea48526e2",
         name: "Holo",
         symbol: "HOT",
         decimals: 18,
@@ -614,7 +614,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     sxp: {
         chainId: 1,
-        address: "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9",
+        address: "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
         name: "Swipe",
         symbol: "SXP",
         decimals: 18,
@@ -622,7 +622,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     audio: {
         chainId: 1,
-        address: "0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998",
+        address: "0x18aaa7115705e8be94bffebde57af9bfc265b998",
         name: "Audius",
         symbol: "AUDIO",
         decimals: 18,
@@ -630,7 +630,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     zrx: {
         chainId: 1,
-        address: "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+        address: "0xe41d2489571d322189246dafa5ebde1f4699f498",
         name: "0x",
         symbol: "ZRX",
         decimals: 18,
@@ -638,7 +638,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     ant: {
         chainId: 1,
-        address: "0xa117000000f279D81A1D3cc75430fAA017FA5A2e",
+        address:"0xa117000000f279d81a1d3cc75430faa017fa5a2e",
         name: "Aragon",
         symbol: "ANT",
         decimals: 18,
@@ -646,7 +646,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     lyxe: {
         chainId: 1,
-        address: "0xA8b919680258d369114910511cc87595aec0be6D",
+        address: "0xa8b919680258d369114910511cc87595aec0be6d",
         name: "LUKSO",
         symbol: "LYXe",
         decimals: 18,
@@ -654,7 +654,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     band: {
         chainId: 1,
-        address: "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
+        address:"0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
         name: "Band Protocol",
         symbol: "BAND",
         decimals: 18,
@@ -662,7 +662,7 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
     },
     sushi: {
         chainId: 1,
-        address: "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+        address: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
         name: "SushiSwap",
         symbol: "SUSHI",
         decimals: 18,
@@ -671,17 +671,17 @@ export const ETHEREUM_TOKENS_BY_SYMBOL: Record<string, Token> = {
 };
 
 export const ETHEREUM_TOKENS_BY_ADDRESS: Record<string, Token> = {
-    "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0": {
+    "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0": {
         chainId: 1,
-        address: "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+        address: "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
         name: "Polygon",
         symbol: "MATIC",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
     },
-    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+    "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
         chainId: 1,
-        address: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        address: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
         name: "WETH",
         symbol: "WETH",
         decimals: 18,
@@ -693,11 +693,11 @@ export const ETHEREUM_TOKENS_BY_ADDRESS: Record<string, Token> = {
         name: "USD Coin",
         symbol: "USDC",
         decimals: 6,
-        logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/logo.png",
+        logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
     },
-    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+    "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
         chainId: 1,
-        address: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        address: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
         name: "Wrapped Bitcoin",
         symbol: "WBTC",
         decimals: 8,
@@ -709,286 +709,286 @@ export const ETHEREUM_TOKENS_BY_ADDRESS: Record<string, Token> = {
         name: "Dai",
         symbol: "DAI",
         decimals: 18,
-        logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x6b175474e89094c44da98b954eedeac495271d0f/logo.png",
+        logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
     },
-    "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE": {
+    "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce": {
         chainId: 1,
-        address: "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+        address: "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
         name: "SHIBA INU",
         symbol: "SHIB",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE/logo.png",
     },
 
-    "0x4Fabb145d64652a948d72533023f6E7A623C7C53": {
+    "0x4fabb145d64652a948d72533023f6e7a623c7c53": {
         chainId: 1,
-        address: "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+        address: "0x4fabb145d64652a948d72533023f6e7a623c7c53",
         name: "Binance USD",
         symbol: "BUSD",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x4Fabb145d64652a948d72533023f6E7A623C7C53/logo.png",
     },
-    "0x514910771AF9Ca656af840dff83E8264EcF986CA": {
+    "0x514910771af9ca656af840dff83e8264ecf986ca": {
         chainId: 1,
-        address: "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        address: "0x514910771af9ca656af840dff83e8264ecf986ca",
         name: "Chainlink",
         symbol: "LINK",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
     },
-    "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
+    "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": {
         chainId: 1,
-        address: "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        address: "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
         name: "Uniswap",
         symbol: "UNI",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
     },
-    "0x0000000000085d4780B73119b644AE5ecd22b376": {
+    "0x0000000000085d4780b73119b644ae5ecd22b376": {
         chainId: 1,
-        address: "0x0000000000085d4780B73119b644AE5ecd22b376",
+        address: "0x0000000000085d4780b73119b644ae5ecd22b376",
         name: "TrueUSD",
         symbol: "TUSD",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x0000000000085d4780B73119b644AE5ecd22b376/logo.png",
     },
-    "0x4a220E6096B25EADb88358cb44068A3248254675": {
+    "0x4a220e6096b25eadb88358cb44068a3248254675": {
         chainId: 1,
-        address: "0x4a220E6096B25EADb88358cb44068A3248254675",
+        address: "0x4a220e6096b25eadb88358cb44068a3248254675",
         name: "Quant",
         symbol: "QNT",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x4a220E6096B25EADb88358cb44068A3248254675/logo.png",
     },
-    "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9": {
+    "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
         chainId: 1,
-        address: "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        address: "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
         name: "Aave",
         symbol: "AAVE",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo.png",
     },
 
-    "0xc944E90C64B2c07662A292be6244BDf05Cda44a7": {
+    "0xc944e90c64b2c07662a292be6244bdf05cda44a7": {
         chainId: 1,
-        address: "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+        address: "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
         name: "The Graph",
         symbol: "GRT",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png",
     },
-    "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
+    "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
         chainId: 1,
-        address: "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+        address: "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
         name: "Maker",
         symbol: "MKR",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png",
     },
-    "0x3845badAde8e6dFF049820680d1F14bD3903a5d0": {
+    "0x3845badade8e6dff049820680d1f14bd3903a5d0": {
         chainId: 1,
-        address: "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
+        address: "0x3845badade8e6dff049820680d1f14bd3903a5d0",
         name: "The Sandbox",
         symbol: "SAND",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x3845badAde8e6dFF049820680d1F14bD3903a5d0/logo.png",
     },
-    "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942": {
+    "0x0f5d2fb29fb7d3cfee444a200298f468908cc942": {
         chainId: 1,
-        address: "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
+        address: "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
         name: "Decentraland",
         symbol: "MANA",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x0F5D2fB29fb7d3CFeE444a200298f468908cC942/logo.png",
     },
-    "0x4d224452801ACEd8B2F0aebE155379bb5D594381": {
+    "0x4d224452801aced8b2f0aebe155379bb5d594381": {
         chainId: 1,
-        address: "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+        address: "0x4d224452801aced8b2f0aebe155379bb5d594381",
         name: "ApeCoin (APE)",
         symbol: "APE",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x4d224452801ACEd8B2F0aebE155379bb5D594381/logo.png",
     },
-    "0xD533a949740bb3306d119CC777fa900bA034cd52": {
+    "0xd533a949740bb3306d119cc777fa900ba034cd52": {
         chainId: 1,
-        address: "0xD533a949740bb3306d119CC777fa900bA034cd52",
+        address: "0xd533a949740bb3306d119cc777fa900ba034cd52",
         name: "Curve DAO Token",
         symbol: "CRV",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png",
     },
-    "0xd1d2Eb1B1e90B638588728b4130137D262C87cae": {
+    "0xd1d2eb1b1e90b638588728b4130137d262c87cae": {
         chainId: 1,
-        address: "0xd1d2Eb1B1e90B638588728b4130137D262C87cae",
+        address: "0xd1d2eb1b1e90b638588728b4130137d262c87cae",
         name: "Gala",
         symbol: "GALA",
         decimals: 8,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xd1d2Eb1B1e90B638588728b4130137D262C87cae/logo.png",
     },
-    "0x45804880De22913dAFE09f4980848ECE6EcbAf78": {
+    "0x45804880de22913dafe09f4980848ece6ecbaf78": {
         chainId: 1,
-        address: "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+        address: "0x45804880de22913dafe09f4980848ece6ecbaf78",
         name: "PAX Gold",
         symbol: "PAXG",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x45804880De22913dAFE09f4980848ECE6EcbAf78/logo.png",
     },
-    "0xc00e94Cb662C3520282E6f5717214004A7f26888": {
+    "0xc00e94cb662c3520282e6f5717214004a7f26888": {
         chainId: 1,
-        address: "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+        address: "0xc00e94cb662c3520282e6f5717214004a7f26888",
         name: "Compound",
         symbol: "COMP",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
     },
 
-    "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206": {
+    "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206": {
         chainId: 1,
-        address: "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
+        address: "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
         name: "Nexo",
         symbol: "NEXO",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206/logo.png",
     },
-    "0x111111111117dC0aa78b770fA6A738034120C302": {
+    "0x111111111117dc0aa78b770fa6a738034120c302": {
         chainId: 1,
-        address: "0x111111111117dC0aa78b770fA6A738034120C302",
+        address: "0x111111111117dc0aa78b770fa6a738034120c302",
         name: "1INCH Token",
         symbol: "1INCH",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png",
     },
-    "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD": {
+    "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd": {
         chainId: 1,
-        address: "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+        address: "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
         name: "Loopring",
         symbol: "LRC",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD/logo.png",
     },
-    "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c": {
+    "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c": {
         chainId: 1,
-        address: "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
+        address: "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
         name: "Enjin Coin",
         symbol: "ENJ",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c/logo.png",
     },
-    "0x6810e776880C02933D47DB1b9fc05908e5386b96": {
+    "0x6810e776880c02933d47db1b9fc05908e5386b96": {
         chainId: 1,
-        address: "0x6810e776880C02933D47DB1b9fc05908e5386b96",
+        address: "0x6810e776880c02933d47db1b9fc05908e5386b96",
         name: "Gnosis",
         symbol: "GNO",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png",
     },
-    "0x0D8775F648430679A709E98d2b0Cb6250d2887EF": {
+    "0x0d8775f648430679a709e98d2b0cb6250d2887ef": {
         chainId: 1,
-        address: "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+        address: "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
         name: "Basic Attention Token",
         symbol: "BAT",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x0D8775F648430679A709E98d2b0Cb6250d2887EF/logo.png",
     },
-    "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F": {
+    "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f": {
         chainId: 1,
-        address: "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+        address: "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
         name: "Synthetix",
         symbol: "SNX",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets//logo.png",
     },
-    "0xba100000625a3754423978a60c9317c58a424e3D": {
+    "0xba100000625a3754423978a60c9317c58a424e3d": {
         chainId: 1,
-        address: "0xba100000625a3754423978a60c9317c58a424e3D",
+        address: "0xba100000625a3754423978a60c9317c58a424e3d",
         name: "Balancer",
         symbol: "BAL",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png",
     },
-    "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e": {
+    "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e": {
         chainId: 1,
-        address: "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+        address: "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
         name: "yearn.finance",
         symbol: "YFI",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
     },
-    "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51": {
+    "0x57ab1ec28d129707052df4df418d58a2d46d5f51": {
         chainId: 1,
-        address: "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+        address: "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
         name: "sUSD",
         symbol: "sUSD",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x57Ab1ec28D129707052df4dF418D58a2D46d5f51/logo.png",
     },
-    "0x967da4048cD07aB37855c090aAF366e4ce1b9F48": {
+    "0x967da4048cd07ab37855c090aaf366e4ce1b9f48": {
         chainId: 1,
-        address: "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
+        address: "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
         name: "Ocean Protocol",
         symbol: "OCEAN",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png",
     },
-    "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2": {
+    "0x6c6ee5e31d828de241282b9606c8e98ea48526e2": {
         chainId: 1,
-        address: "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
+        address: "0x6c6ee5e31d828de241282b9606c8e98ea48526e2",
         name: "Holo",
         symbol: "HOT",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x6c6EE5e31d828De241282B9606C8e98Ea48526E2/logo.png",
     },
-    "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9": {
+    "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9": {
         chainId: 1,
-        address: "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9",
+        address: "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
         name: "Swipe",
         symbol: "SXP",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9/logo.png",
     },
-    "0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998": {
+    "0x18aaa7115705e8be94bffebde57af9bfc265b998": {
         chainId: 1,
-        address: "0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998",
+        address: "0x18aaa7115705e8be94bffebde57af9bfc265b998",
         name: "Audius",
         symbol: "AUDIO",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998/logo.png",
     },
-    "0xE41d2489571d322189246DaFA5ebDe1F4699F498": {
+    "0xe41d2489571d322189246dafa5ebde1f4699f498": {
         chainId: 1,
-        address: "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+        address: "0xe41d2489571d322189246dafa5ebde1f4699f498",
         name: "0x",
         symbol: "ZRX",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xE41d2489571d322189246DaFA5ebDe1F4699F498/logo.png",
     },
-    "0xa117000000f279D81A1D3cc75430fAA017FA5A2e": {
+    "0xa117000000f279d81a1d3cc75430faa017fa5a2e": {
         chainId: 1,
-        address: "0xa117000000f279D81A1D3cc75430fAA017FA5A2e",
+        address: "0xa117000000f279d81a1d3cc75430faa017fa5a2e",
         name: "Aragon",
         symbol: "ANT",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xa117000000f279D81A1D3cc75430fAA017FA5A2e/logo.png",
     },
-    "0xA8b919680258d369114910511cc87595aec0be6D": {
+    "0xa8b919680258d369114910511cc87595aec0be6d": {
         chainId: 1,
-        address: "0xA8b919680258d369114910511cc87595aec0be6D",
+        address: "0xa8b919680258d369114910511cc87595aec0be6d",
         name: "LUKSO",
         symbol: "LYXe",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xA8b919680258d369114910511cc87595aec0be6D/logo.png",
     },
-    "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55": {
+    "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55": {
         chainId: 1,
-        address: "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
+        address: "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
         name: "Band Protocol",
         symbol: "BAND",
         decimals: 18,
         logoURI: "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55/logo.png",
     },
-    "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2": {
+    "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2": {
         chainId: 1,
-        address: "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+        address: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
         name: "SushiSwap",
         symbol: "SUSHI",
         decimals: 18,

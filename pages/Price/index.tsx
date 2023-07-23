@@ -2,7 +2,7 @@
 import qs from "qs";
 import useSWR from "swr";
 import {ConnectKitButton} from "connectkit";
-import {useState, ChangeEvent, useEffect} from "react";
+import {useState, ChangeEvent} from "react";
 import {formatUnits, parseUnits} from "ethers";
 
 import {
@@ -36,11 +36,7 @@ export const fetcher = ([endpoint, params]: [string, PriceRequestParams]) => {
     return fetch(`${endpoint}?${query}`).then((res) => res.json());
 };
 
-export default function PriceView({
-                                      setPrice,
-                                      setFinalize,
-                                      takerAddress
-                                  }: {
+export default function PriceView({ setPrice, setFinalize, takerAddress }: {
     price: any;
     setPrice: (price: any) => void;
     setFinalize: (finalize: boolean) => void;
@@ -52,13 +48,29 @@ export default function PriceView({
     const [tradeDirection, setTradeDirection] = useState("sell")
     const [sellToken, setSellToken] = useState("matic");
     const [buyToken, setBuyToken] = useState("dai");
+    const [sellTokenBalance,setSellTokenBalance] = useState()
+    const [buyTokenBalance,setBuyTokenBalance] = useState()
 
-
-    const {data, isError, isLoading} = useBalance({
-            address: takerAddress,
-            token: ETHEREUM_TOKENS_BY_SYMBOL[sellToken].address
+    const getSellToken=useBalance({
+        address:takerAddress,
+        token:ETHEREUM_TOKENS_BY_SYMBOL[sellToken].address,
+        onSuccess(data) {
+            console.log("Success",data)
+            setSellTokenBalance(data?.formatted)
         }
-    )
+    })
+
+    const getBuyToken=useBalance({
+        address:takerAddress,
+        token:ETHEREUM_TOKENS_BY_SYMBOL[buyToken].address,
+        onSuccess(data) {
+            console.log("Success",data)
+            setBuyTokenBalance(data?.formatted)
+        }
+    })
+
+
+
 
     const handleSellTokenChange = (event: ChangeEvent<HTMLSelectElement>) => {
         setSellToken(event.target.value);
@@ -89,7 +101,6 @@ export default function PriceView({
         ],
         fetcher,
         {
-            // @ts-ignore
             onSuccess: (data) => {
                 setPrice(data);
                 if (tradeDirection === "sell") {
@@ -101,7 +112,6 @@ export default function PriceView({
         }
     );
 
-    // @ts-ignore
     return (
         <form>
             <Card>
@@ -114,11 +124,12 @@ export default function PriceView({
                                style={{width: '200px', height: '46px', marginLeft: '50px'}}/>
                     </div>
                 </Card.Header>
-                <Text h1 size={30} weight="bold" style={ {textAlign: 'center',marginBottom: '10px'}}>Swap Token App</Text>
+                <Text h1 size={30} weight="bold" style={{textAlign: 'center', marginBottom: '10px'}}>Swap Token
+                    App</Text>
                 <Card.Divider></Card.Divider>
                 <Card.Body>
                     <div style={{display: 'flex'}}>
-                        <Text h3 weight="bold" style={{marginLeft:"30px"}}>{"From : "}</Text>
+                        <Text h3 weight="bold" style={{marginLeft: "30px"}}>{"From : "}</Text>
                         <Text h3 weight="bold" style={{marginLeft: "120px"}}>{"Amount : "}</Text>
                     </div>
                     <section className="mt-4 flex items-start justify-center">
@@ -162,11 +173,12 @@ export default function PriceView({
 
                     <div style={{display: 'flex'}}>
                         <Text h3 weight="bold" style={{marginLeft: "30px"}}>{"Current Balance : "}</Text>
-                        <Text h3 weight="bold" style={{marginLeft: "10px"}}>{data?.formatted} {data?.symbol}</Text>
+                        <Text h3 weight="bold"
+                              style={{marginLeft: "10px"}}>{sellTokenBalance} {sellToken.toUpperCase()}</Text>
                     </div>
 
                     <div style={{display: 'flex'}}>
-                        <Text h3 weight="bold" style={{marginTop: "30px",marginLeft:"30px"}}>{"To : "}</Text>
+                        <Text h3 weight="bold" style={{marginTop: "30px", marginLeft: "30px"}}>{"To : "}</Text>
                         <Text h3 weight="bold" style={{marginLeft: "140px", marginTop: "30px"}}>{"Amount : "}</Text>
                     </div>
 
@@ -207,6 +219,10 @@ export default function PriceView({
                             }}
                         />
                     </section>
+                    <div style={{display: 'flex'}}>
+                        <Text h3 weight="bold" style={{marginLeft: "30px"}}>{"Current Balance : "}</Text>
+                        <Text h3 weight="bold" style={{marginLeft: "10px"}}>{buyTokenBalance} {buyToken.toUpperCase()}</Text>
+                    </div>
 
                     {takerAddress ? (
                         <ApproveOrReviewButton
